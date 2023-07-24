@@ -6,9 +6,10 @@ import App from "./App";
 import Layout from "./components/Layout";
 import NoMatch from "./components/NoMatch";
 
+
 import "./styles/index.css";
 
-const publishableKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
+const publishableKey = 'pk_test_dGVhY2hpbmctZWVsLTkuY2xlcmsuYWNjb3VudHMuZGV2JA';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -4,6 +4,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
 }
 
 header ul {
@@ -26,14 +28,29 @@ header button {
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 
 header .sign-up-btn {
-  border: 1px solid #61dafb;
-  color: #61dafb;
+  border: 1px solid #005FFF;
+  color: #005FFF;
+}
+header .sign-up-btn:hover{
+  background-color: black;
+  color:white;
+  border:black;
 }
 
 header .sign-in-btn {
-  background: #61dafb;
-  color: #282c34;
+  background: #005FFF;
+  color: #ffffff;
 }
+
+header .sign-in-btn:hover{
+  color:#ffffff;
+  background-color: black;
+}
+
+
+
+

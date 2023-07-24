@@ -1,12 +1,12 @@
 .app {
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: calc(10px + 2vmin);
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 100px;
+  /* padding-top: 100px; */
 }
 
 .app h1 {
@@ -26,7 +26,55 @@
 }
 
 .app a {
-  color: #61dafb;
+  color: #005FFF;
+}
+
+
+/* Continue on Sign in and Sign Up */
+.cl-internal-1fsg6zy{
+  background-color:#005FFF;
+  color: white;
+  font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+/* Hovering on Continue Botton  */
+.cl-internal-1fsg6zy:hover{
+  background-color: rgb(58, 61, 70);
+  color: white;
+}
+
+/* Continue with Google Button */
+.cl-internal-1bm3sy9{
+  color: rgb(0, 0, 0);
+}
+
+.cl-internal-1bm3sy9:hover{
+  color:blueviolet;
+}
+
+/* Sign In / Sign Up Entire Box */
+.cl-internal-17ydaof{
+  background-color: rgb(255, 255, 255);
+  margin: 100px;
+  font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+
+.cl-internal-13qr38j {
+  box-sizing: inherit;
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+  margin-left: 0px;
+}
+
+/* Sign in Text Value */
+.cl-internal-1vbdq0x{
+  color: black;
 }
 
 @keyframes App-logo-spin {
